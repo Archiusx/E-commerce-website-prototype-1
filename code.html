@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>संग - Kashmiri Heritage</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Hanken+Grotesk:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-error": "#ffffff",
+                    "surface-tint": "#6b5a60",
+                    "on-background": "#1d1b1b",
+                    "surface-dim": "#ded9d9",
+                    "surface-container-low": "#f8f2f2",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed-dim": "#d7c1c8",
+                    "secondary": "#5f5e5e",
+                    "surface-container-high": "#ece7e7",
+                    "error-container": "#ffdad6",
+                    "surface-bright": "#fef8f8",
+                    "on-tertiary-fixed-variant": "#90003b",
+                    "surface-container-highest": "#e7e1e1",
+                    "on-secondary-fixed-variant": "#474746",
+                    "on-primary-fixed": "#25181e",
+                    "surface-variant": "#e7e1e1",
+                    "on-tertiary-container": "#ce0e59",
+                    "on-primary-fixed-variant": "#524249",
+                    "background": "#fef8f8",
+                    "tertiary-fixed": "#ffd9de",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-container": "#ffe4e7",
+                    "primary-container": "#fce4ec",
+                    "on-primary": "#ffffff",
+                    "on-secondary-container": "#636262",
+                    "tertiary": "#bc004f",
+                    "surface": "#fef8f8",
+                    "on-primary-container": "#76646b",
+                    "on-secondary-fixed": "#1c1b1b",
+                    "inverse-surface": "#323030",
+                    "on-tertiary-fixed": "#3f0016",
+                    "primary": "#6b5a60",
+                    "on-surface-variant": "#4d4447",
+                    "outline": "#7f7478",
+                    "on-surface": "#1d1b1b",
+                    "secondary-fixed": "#e5e2e1",
+                    "tertiary-fixed-dim": "#ffb2bf",
+                    "primary-fixed": "#f4dce4",
+                    "inverse-on-surface": "#f5efef",
+                    "surface-container": "#f2eced",
+                    "on-error-container": "#93000a",
+                    "on-secondary": "#ffffff",
+                    "error": "#ba1a1a",
+                    "outline-variant": "#d0c3c7",
+                    "secondary-container": "#e2dfde",
+                    "inverse-primary": "#d7c1c8",
+                    "secondary-fixed-dim": "#c8c6c5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "16px",
+                    "section-padding": "40px",
+                    "base": "8px",
+                    "container-margin": "20px"
+            },
+            "fontFamily": {
+                    "label-md": ["Hanken Grotesk"],
+                    "body-md": ["Hanken Grotesk"],
+                    "headline-md": ["Playfair Display"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "display-lg": ["Playfair Display"],
+                    "headline-lg": ["Playfair Display"]
+            },
+            "fontSize": {
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "display-lg": ["42px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg": ["30px", {"lineHeight": "36px", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { -webkit-font-smoothing: antialiased; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full bg-background/90 backdrop-blur-md z-50 flex justify-between items-center px-container-margin h-16 w-full shadow-none transition-opacity duration-300">
+<button class="hover:opacity-70">
+<span class="material-symbols-outlined text-on-background" data-icon="menu">menu</span>
+</button>
+<h1 class="font-headline-md text-headline-md text-on-background">संग</h1>
+<button class="hover:opacity-70">
+<span class="material-symbols-outlined text-on-background" data-icon="shopping_bag">shopping_bag</span>
+</button>
+</header>
+<main class="pt-16 pb-24">
+<!-- Hero Section: Cinematic Vertical Banner -->
+<section class="relative h-[751px] w-full overflow-hidden">
+<img alt="Tradition Reimagined" class="w-full h-full object-cover" data-alt="A cinematic, vertical portrait of a modern Kashmiri bride wearing intricate heritage jewelry including a Dejhoor and heavy silver necklaces. She is draped in a soft dusty pink Pashmina with subtle charcoal embroidery. The lighting is soft and ethereal, using a high-fashion editorial aesthetic with a minimalist background. The mood is romantic and timeless, capturing the essence of Kashmiri luxury." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxzaF5VDpkf0XzYE9OLVQBceXDweJ3VAq5iRq6otWyXWnV9E4ItPpubjmMzHh-6HmycSRwyZ6l7BEkZ_s6OR9X-0AslHuSg8BAwo3dyc-vFNnmuYUmnqhn3RFy-5I-EXRY_h-KJH67hhM7BYXgO9np4m0J52_UNAhkrZy6HsAV4xFA3_wFb5XQETEngHX3HcVqUIsMZB0vEvo6ptSClGB8teGgJqSDcxxfy5dNG97-HydboaAorkDctohItvwFdhr-58ciUOamxrA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/40 to-transparent"></div>
+<div class="absolute bottom-section-padding left-container-margin right-container-margin text-center">
+<span class="font-label-md text-label-md text-background tracking-widest uppercase mb-base block">New Collection</span>
+<h2 class="font-display-lg text-display-lg text-background mb-base">Tradition Reimagined</h2>
+<button class="bg-on-background text-background font-label-md px-10 py-4 rounded-full transition-transform active:scale-95 shadow-lg">
+                    EXPLORE COUTURE
+                </button>
+</div>
+</section>
+<!-- Category Scroll -->
+<section class="py-section-padding px-container-margin">
+<div class="flex items-center justify-between mb-6">
+<h3 class="font-headline-lg text-headline-lg">Categories</h3>
+<span class="font-label-md text-primary-container-on underline">View All</span>
+</div>
+<div class="flex gap-gutter overflow-x-auto pb-4 scrollbar-hide">
+<!-- Category 1 -->
+<div class="flex-shrink-0 flex flex-col items-center gap-base">
+<div class="w-24 h-24 rounded-full overflow-hidden border border-outline-variant bg-surface-container-low p-1">
+<img alt="Kashmiri Bangles" class="w-full h-full object-cover rounded-full" data-alt="Close up photography of intricate Kashmiri Bangles with floral enamel work and gold plating. The jewelry is presented on a soft blush fabric background. The lighting is bright and clean, highlighting the craftsmanship and the luxury boutique feel of the brand संग." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGhI9ntKf51rKAEtkDqz9XAn8_0xq_uzroi5H-jQqYQQLhutqOaKWGxJMmTEuLkOBnzehVopqH6H-seXm7au8qKt8KR_3aOw-CftJrjaJ6Q8RqpQacaZFRl6R7qV80WMrodY3uEULi6HME7OW7Chcl2uOsFn_pQxrGCRWGO7DIu5YW-qxmE0WCLuEWYpcWy0bEr7YrRmzryMicWtaa6q6EsBnvqtzvnB46enFup92tnudqjlzU2qoKaFZ9cGXez-FxTOQVHbz57bI"/>
+</div>
+<span class="font-label-md text-label-md">Kashmiri Bangles</span>
+</div>
+<!-- Category 2 -->
+<div class="flex-shrink-0 flex flex-col items-center gap-base">
+<div class="w-24 h-24 rounded-full overflow-hidden border border-outline-variant bg-surface-container-low p-1">
+<img alt="Bridal Heritage" class="w-full h-full object-cover rounded-full" data-alt="A collection of Bridal Heritage jewelry items including necklaces and earrings made of fine silver and traditional stones. The aesthetic is inspired by Kashmiri royal traditions, set against a light pink and white background with high-contrast shadows. The focus is on the intricate detail of the heritage pieces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADiqCnngWZvHF69IqESj2QF875NGISMRtmTQUP-azIkT9_dMPbwJW8jSSnMSTP0CB1wF3GCnjuDKVtrwKvvfmtMpRpS4fsrn8rVX7L1MBfixvThQI327_4qyXhhRGTYic1xxnKGD_5SLH-bQN74MT2OrBrPUZp3kBfw8HogfF_OPuoeWK30rgAgNCv-e7gWrIDImW0vl50yoCVseDfyudpDvUHAkvpf-BUjTaXhJ-Viz8sGuIkXaFIzAFEl-LlBor4qrEc4cihGyw"/>
+</div>
+<span class="font-label-md text-label-md text-center">Bridal Heritage</span>
+</div>
+<!-- Category 3 -->
+<div class="flex-shrink-0 flex flex-col items-center gap-base">
+<div class="w-24 h-24 rounded-full overflow-hidden border border-outline-variant bg-surface-container-low p-1">
+<img alt="Mirror Work" class="w-full h-full object-cover rounded-full" data-alt="An artistic shot of Mirror Work textile detail on a traditional Kashmiri garment. The mirrors reflect soft light, set against a dusty pink pashmina base. The image is captured in a high-fashion macro style, emphasizing the texture and the artisanal quality of the hand-stitched craft." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQn05RTCCWeNImskxpVY7PeJ8owJmQwILmkfsB_FogbpJ-dmIqF52b0HITz3sfqzhZGZTs4A9zmVG0QPV8M-0RKVJWnM0f53YM2E-26WIfDEPZLhg9bxaf8RX54zBlP8DZVo26dmttGCV5vnwe_Tpw16erfWzW_MRLbXdwjWTjFh61BckUvQ8CoNrGVtbwnCllPIIrpWZYvoQveCIuoFhuW6grN57ZQupCVLG_6qLW_UiFWt5fRg6ammo4Ll1JBZcy1BvcyGnKKJk"/>
+</div>
+<span class="font-label-md text-label-md">Mirror Work</span>
+</div>
+</div>
+</section>
+<!-- Trending Section: Two-Column Grid -->
+<section class="bg-surface-container-low py-section-padding px-container-margin">
+<h3 class="font-headline-lg text-headline-lg mb-gutter">Trending Now</h3>
+<div class="grid grid-cols-2 gap-gutter">
+<!-- Product 1 -->
+<div class="group">
+<div class="relative aspect-[3/4] bg-primary-container rounded-lg overflow-hidden mb-base border border-outline-variant/30">
+<img alt="Noor Kashmiri Bangle" class="w-full h-full object-cover transition-transform group-hover:scale-105" data-alt="High-resolution product shot of the Noor Kashmiri Bangle. The bangle is crafted from polished gold with intricate ruby and emerald floral engravings. It is placed on a soft, draped light pink silk fabric. The lighting is warm and directional, casting subtle shadows that highlight the 3D texture of the jewelry." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOnfjIdMAgxdEgeExPP7HcqonAx0qG0-808zpuaYkz-ba0urOywqbQD_tXzuqUR3porAqVkz9YzN9_iWJeXYSShJ7LLGCx4JHEBYOxiiXz5H31jENn9t-RqV4NcGR4ZqXfWuuL8Pnsb63jopjaANT3X3LKFp5FFQcZo5eVhkPG2AbZRDWOFnbvfR0kBkFzj-VQhq4Djv1Uji2kJx4uln1Xmv41s95TeBEPtRtrf41ZNcKtnRs1V4OjGdmK4cRv70PcEXdvRJDpSEY"/>
+<button class="absolute top-base right-base w-8 h-8 flex items-center justify-center bg-background/80 backdrop-blur rounded-full">
+<span class="material-symbols-outlined text-error text-[18px]" data-icon="favorite">favorite</span>
+</button>
+</div>
+<h4 class="font-headline-md text-[18px] leading-tight mb-1">Noor Kashmiri Bangle</h4>
+<p class="font-label-md text-secondary">₹18,500</p>
+</div>
+<!-- Product 2 -->
+<div class="group">
+<div class="relative aspect-[3/4] bg-primary-container rounded-lg overflow-hidden mb-base border border-outline-variant/30">
+<img alt="Afsana Jhumka" class="w-full h-full object-cover transition-transform group-hover:scale-105" data-alt="Elegant product photograph of Afsana Jhumka earrings hanging from a minimalist display. The earrings are fine silver with traditional Kashmiri pearl droplets and intricate filigree patterns. The background is a soft dusty pink gradient. The mood is intimate, luxurious, and highly detailed, fitting a premium jewelry brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ0_7cndjemUkLa5qp0jRq5lytOyektRqoePTwqWjFTQE-_xO-e0Z77jgkqNDoSr_otC-oz7MtN9osDLy95610OEKjCc04lr9fUpRtW_ttgnCTuKkYhkH6Et-nR0Mjzg7HWRCnLjByLjIK86sKNsww8qdLXLI-DViTSn-lOcSshMMuUpUtcQs9dc83-cDAUlc-7Zh01Le6YqdAfBZbMnPgbi7dwcQ0MK9uJig29vVgH3dmXfhO6VBd-YBsCpD7A0AVB92JCnYR_mc"/>
+<button class="absolute top-base right-base w-8 h-8 flex items-center justify-center bg-background/80 backdrop-blur rounded-full">
+<span class="material-symbols-outlined text-secondary text-[18px]" data-icon="favorite">favorite</span>
+</button>
+</div>
+<h4 class="font-headline-md text-[18px] leading-tight mb-1">Afsana Jhumka</h4>
+<p class="font-label-md text-secondary">₹12,400</p>
+</div>
+</div>
+</section>
+<!-- Signature Collections (Asymmetric) -->
+<section class="py-section-padding px-container-margin">
+<div class="relative flex flex-col gap-gutter">
+<div class="absolute -top-10 -left-4 text-primary-fixed-dim/20 font-display-lg text-[120px] pointer-events-none">स</div>
+<div class="flex justify-end">
+<div class="w-3/4 bg-white p-base rounded-lg shadow-sm border border-outline-variant/20">
+<img alt="Heritage Collection" class="w-full h-64 object-cover rounded" data-alt="A curated collection of Kashmiri couture textiles and fine jewelry arranged as a flat-lay. The color palette is composed of soft pinks, bone whites, and charcoal black accents. The scene is bright and airy, representing the 'Desi Romance' brand identity of संग with an ethereal and artisanal aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBkEk1-YEdZFURcNve4dG_Ygw-sH_zyDzFUxypH17bKgYdvX6tjbDbCkzKSNbtcc9qY2pruQfOjc2eoH6X3nBUsFx0wX-6-ZmRY3mprxtGmyhRWP7Nz-swXyN3DvoCQYGWhtVEgYRoUZYZxbiO7ultQhzSmIw-TUYv6_7-B9oOZ3qSJI-szR7hl09xKe74vTY8M_Kn6kitCmOteeY5b5YKqcWByP_IqlVHhDkMoikBASQ76kQSnDhNPfI0J5ZvWlu4UIxx7SJ6Wpw"/>
+<div class="mt-4">
+<h5 class="font-headline-lg text-headline-lg">Heritage Series</h5>
+<p class="font-body-md text-on-surface-variant">Intricately woven stories of the valley.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Floating Actions (WhatsApp and FAB) -->
+<div class="fixed bottom-24 right-container-margin flex flex-col gap-4 z-40">
+<button class="w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg transition-transform hover:scale-105">
+<svg class="w-8 h-8 fill-current" viewbox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.538-2.961-2.654-.087-.116-.708-.941-.708-1.795 0-.855.449-1.273.608-1.441.159-.169.348-.21.464-.21.117 0 .232.001.333.005.106.004.25-.039.391.302.144.35.493 1.203.536 1.29.043.087.072.188.014.302-.058.116-.087.188-.174.29-.087.101-.182.226-.26.303-.087.087-.177.182-.077.354.101.174.449.741.964 1.201.662.591 1.221.777 1.394.864.174.088.275.073.377-.043.101-.116.434-.506.549-.68.116-.174.232-.145.391-.087.159.058 1.014.478 1.187.565.173.088.289.129.333.203.043.073.043.419-.101.824zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.662 1.435 5.176L2 22l4.957-1.301C8.36 21.524 10.109 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"></path></svg>
+</button>
+</div>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center py-base px-gutter bg-surface-container-lowest border-t border-outline-variant rounded-t-xl shadow-sm">
+<div class="flex flex-col items-center justify-center text-primary font-bold scale-95 transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="home" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-label-md text-label-md">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-secondary hover:text-primary transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+<span class="font-label-md text-label-md">Search</span>
+</div>
+<div class="flex flex-col items-center justify-center text-secondary hover:text-primary transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="auto_awesome_motion">auto_awesome_motion</span>
+<span class="font-label-md text-label-md">Collections</span>
+</div>
+<div class="flex flex-col items-center justify-center text-secondary hover:text-primary transition-transform duration-200">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+<span class="font-label-md text-label-md">Wishlist</span>
+</div>
+</nav>
+<!-- Footer -->
+<footer class="flex flex-col items-center text-center p-section-padding mb-20 w-full gap-gutter bg-surface-container-low border-t border-outline-variant">
+<div class="font-headline-md text-headline-md">संग</div>
+<div class="flex flex-wrap justify-center gap-4 px-container-margin">
+<a class="font-body-md text-on-surface-variant hover:text-primary" href="#">Newsletter</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary" href="#">Privacy Policy</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary" href="#">Shipping &amp; Returns</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary" href="#">WhatsApp</a>
+</div>
+<p class="font-body-md text-on-surface-variant opacity-80 mt-4 px-container-margin">
+            © 2024 SANG. ETHEREAL KASHMIRI HERITAGE.
+        </p>
+</footer>
+</body></html>
